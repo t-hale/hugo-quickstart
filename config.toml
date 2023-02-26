@@ -1,5 +1,4 @@
-# baseURL = 'http://hugo-quickstart-template.netlify.com'
-baseURL = 'index.html'
+baseURL = 'https://deft-rugelach-29f119.netlify.app'
 languageCode = 'en-us'
 title = 'Netlify + Hugo Quickstart'
 theme = 'netlify-basic'
