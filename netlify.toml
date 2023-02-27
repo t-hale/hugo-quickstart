@@ -12,6 +12,7 @@
 
   [plugins.inputs.postBuild]
     enable = true
+    wait-on-timeout = '30'
 
   [plugins.inputs]
     enable = false
