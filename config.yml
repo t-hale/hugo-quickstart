@@ -1,0 +1,40 @@
+baseURL: "https://deft-rugelach-29f119.netlify.app"
+languageCode: "en-us"
+title: "thale.io"
+theme: "PaperMod"
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 10
+    - identifier: resume
+      name: resume
+      url: /resume/
+      weight: 10
+
+params:
+  ShowBreadCrumbs: true # Adds BreadCrumb Navigation above Post’s Title to show subsections and Navigation to Home
+  defaultTheme: auto #Switch between dark or light according to browser theme
+  disableThemeToggle: true # Shows icon besides title of page to change theme
+  homeInfoParams:
+    Title: Welcome!
+    Content: >
+      A site devoted entirely to nothing, yet full of something...
+  socialIcons: # optional
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/t-hale/"
+    - name: "Github"
+      url: "https://github.com/t-hale"
+    - name: "Twitter"
+      url: "https://twitter.com/TheTylerHale"
+
+# turn on html rendering inside of markdown (BE CAREFUL)
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
