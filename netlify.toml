@@ -6,6 +6,7 @@
 
 [build.environment]
   HUGO_VERSION = "0.101.0"
+  CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
 
 [[plugins]]
   package = "netlify-plugin-cypress"
