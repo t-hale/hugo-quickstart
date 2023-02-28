@@ -2,14 +2,10 @@ describe('empty spec', () => {
   beforeEach(() => {
     cy.visit('/')
   })
-  it('displays the resources text', () => {
-    cy.get('h2').contains('my-first-post');
+  it('displays the title', () => {
+    cy.get('title').contains('thale.io');
   })
-  it('renders the image', () => {
-    cy.get('img')
-    .should('be.visible')
-    .and(($img) => {
-      expect($img[0].naturalWidth).to.be.greaterThan(0);
-    })
+  it('get tagline', () => {
+    cy.get('div').contains('A site devoted entirely to nothing, yet full of something');
   })
 })
