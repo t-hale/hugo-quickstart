@@ -5,10 +5,8 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.101.0"
+  HUGO_VERSION = "0.110.0"
   TERM = "xterm"
-  CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
-  DEBUG = "netlify-plugin-cypress,netlify-plugin-cypress:verbose"
 
 [[plugins]]
   package = "netlify-plugin-cypress"
